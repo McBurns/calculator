@@ -1,21 +1,46 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import WorkList from './components/WorkList';
+import load from './utils/load';
 
-class App extends Component {
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      data: null,
+      active: 0,
+      term: ''
+    };
+
+    this.loadData();
+  }
+
+  showId () {
+        alert (this.state.data[document.getElementById('WorkList').value - 1].name);
+  }
+
+  loadData() {
+    load(this.props.data).then(users => {
+      this.initialData = JSON.parse(users);
+      this.setState({
+        data: this.initialData
+      });
+    });
+  }
+
+  updateData(config) {
+    this.setState(config);
+  }
+
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <div className="app container-fluid">
+        <div className="row">
+          <div className="col-sm-8 col-md-9 col-lg-10">
+            <WorkList data={this.state.data} update={this.updateData.bind(this)} parent={this} />
+          </div>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
 }
-
-export default App;

@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/src/utils/load-compiled.js" />
+        <item url="file://$PROJECT_DIR$/public/js/bootstrap.min-compiled.js" />
+        <item url="file://$PROJECT_DIR$/public/js/jquery.min-compiled.js" />
+        <item url="file://$PROJECT_DIR$/build/static/js/main.8dfbf923-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/components/workType-compiled.js" />
+        <item url="file://$PROJECT_DIR$/public/js/bundle-compiled.js" />
+        <item url="file://$PROJECT_DIR$/build/js/bundle-compiled.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/build/static/js/main.3d73a36a-compiled.js" />
+      <root url="file://$PROJECT_DIR$/build/static/js/main.3d73a36a-compiled.js" />
+      <root url="file://$PROJECT_DIR$/build/static/js/main.b4b8a28d-compiled.js" />
+      <root url="file://$PROJECT_DIR$/build/static/js/main.b4b8a28d-compiled.js" />
+      <root url="file://$PROJECT_DIR$/build/static/js/main.b09751de-compiled.js" />
+      <root url="file://$PROJECT_DIR$/build/static/js/main.b09751de-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/utils/load-compiled.js" />
+      <root url="file://$PROJECT_DIR$/public/js/bootstrap.min-compiled.js" />
+      <root url="file://$PROJECT_DIR$/public/js/jquery.min-compiled.js" />
+      <root url="file://$PROJECT_DIR$/build/static/js/main.8dfbf923-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/components/workType-compiled.js" />
+      <root url="file://$PROJECT_DIR$/public/js/bundle-compiled.js" />
+      <root url="file://$PROJECT_DIR$/build/js/bundle-compiled.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
